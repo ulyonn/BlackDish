@@ -8,6 +8,6 @@ public class ProfilePic : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        imagendeusuario.sprite =GlobalVariables.profilePic.sprite;
+        imagendeusuario.sprite = GlobalVariables.profilePic.sprite;
     }
 }

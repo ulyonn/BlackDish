@@ -151,4 +151,11 @@ public class FbScript : MonoBehaviour
 
         }
     }
+
+    public void logoutfb()
+    {
+        FB.LogOut();
+        Debug.Log("Cerraste sesion");
+        SceneManager.LoadScene("login");
+    }
 }
