@@ -1,8 +1,10 @@
 Android
 PlayerPath?
-D:/Documentos/BlackDish/blackdish_beta.apk
+D:/Documentos/BlackDish/blackdish.apk
 SceneListBegin?
 Assets/Scenes/login.unity
+Assets/Scenes/loginEmail.unity
+Assets/Scenes/register.unity
 Assets/Scenes/menu.unity
 Assets/Scenes/top.unity
 Assets/Scenes/promo.unity

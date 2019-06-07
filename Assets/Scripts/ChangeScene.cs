@@ -6,23 +6,9 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
 
-    public void sceneMenu()
+    public void cargarEscena(string nombreEscena)
     {
-        SceneManager.LoadScene(1);
-    }
+        SceneManager.LoadScene(nombreEscena);
 
-    public void sceneTop()
-    {
-        SceneManager.LoadScene(2);
-    }
-
-    public void scenePromo()
-    {
-        SceneManager.LoadScene(3);
-    }
-
-    public void sceneCat()
-    {
-        SceneManager.LoadScene(4);
     }
 }
