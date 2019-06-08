@@ -597,7 +597,7 @@ Camera:
   m_GameObject: {fileID: 282840810}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -649,6 +649,7 @@ GameObject:
   - component: {fileID: 329422498}
   - component: {fileID: 329422497}
   - component: {fileID: 329422496}
+  - component: {fileID: 329422499}
   m_Layer: 5
   m_Name: italian
   m_TagString: Untagged
@@ -713,7 +714,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 329422497}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 329422499}
+        m_MethodName: cargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: italian
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &329422497
@@ -749,6 +761,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 329422494}
+--- !u!114 &329422499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 329422494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc07369ac2943f40af06ea54090bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &399807311
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +1005,7 @@ GameObject:
   - component: {fileID: 772613926}
   - component: {fileID: 772613925}
   - component: {fileID: 772613924}
+  - component: {fileID: 772613927}
   m_Layer: 5
   m_Name: seafood
   m_TagString: Untagged
@@ -1046,7 +1070,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 772613925}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 772613927}
+        m_MethodName: cargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: seaFood
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &772613925
@@ -1082,6 +1117,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 772613922}
+--- !u!114 &772613927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 772613922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc07369ac2943f40af06ea54090bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &789393918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,6 +1175,7 @@ GameObject:
   - component: {fileID: 835588131}
   - component: {fileID: 835588130}
   - component: {fileID: 835588129}
+  - component: {fileID: 835588132}
   m_Layer: 5
   m_Name: fastFood
   m_TagString: Untagged
@@ -1193,7 +1240,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 835588130}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 835588132}
+        m_MethodName: cargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: fastFood
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &835588130
@@ -1229,6 +1287,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 835588127}
+--- !u!114 &835588132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 835588127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc07369ac2943f40af06ea54090bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &871014212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1398,7 @@ GameObject:
   - component: {fileID: 880540101}
   - component: {fileID: 880540100}
   - component: {fileID: 880540099}
+  - component: {fileID: 880540102}
   m_Layer: 5
   m_Name: pizza
   m_TagString: Untagged
@@ -1393,7 +1463,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 880540100}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 880540102}
+        m_MethodName: cargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: pizza
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &880540100
@@ -1429,6 +1510,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 880540097}
+--- !u!114 &880540102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 880540097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc07369ac2943f40af06ea54090bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &997411112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,6 +1532,7 @@ GameObject:
   - component: {fileID: 997411116}
   - component: {fileID: 997411115}
   - component: {fileID: 997411114}
+  - component: {fileID: 997411117}
   m_Layer: 5
   m_Name: desserts
   m_TagString: Untagged
@@ -1504,7 +1597,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 997411115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 997411117}
+        m_MethodName: cargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: desserts
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &997411115
@@ -1540,6 +1644,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 997411112}
+--- !u!114 &997411117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 997411112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc07369ac2943f40af06ea54090bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1020563653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,6 +2209,7 @@ GameObject:
   - component: {fileID: 1657003550}
   - component: {fileID: 1657003549}
   - component: {fileID: 1657003548}
+  - component: {fileID: 1657003551}
   m_Layer: 5
   m_Name: mexican
   m_TagString: Untagged
@@ -2158,7 +2274,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1657003549}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1657003551}
+        m_MethodName: cargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: mexican
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1657003549
@@ -2194,6 +2321,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657003546}
+--- !u!114 &1657003551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1657003546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc07369ac2943f40af06ea54090bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1702147537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2338,6 +2476,7 @@ GameObject:
   - component: {fileID: 1722063594}
   - component: {fileID: 1722063593}
   - component: {fileID: 1722063592}
+  - component: {fileID: 1722063595}
   m_Layer: 5
   m_Name: gourmet
   m_TagString: Untagged
@@ -2402,7 +2541,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1722063593}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1722063595}
+        m_MethodName: cargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: gourmet
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1722063593
@@ -2438,6 +2588,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1722063590}
+--- !u!114 &1722063595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1722063590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc07369ac2943f40af06ea54090bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1805364385
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,6 +2610,7 @@ GameObject:
   - component: {fileID: 1805364389}
   - component: {fileID: 1805364388}
   - component: {fileID: 1805364387}
+  - component: {fileID: 1805364390}
   m_Layer: 5
   m_Name: asian
   m_TagString: Untagged
@@ -2513,7 +2675,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1805364388}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1805364390}
+        m_MethodName: cargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: asian
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1805364388
@@ -2549,6 +2722,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1805364385}
+--- !u!114 &1805364390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1805364385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc07369ac2943f40af06ea54090bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1844906181
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,6 +2744,7 @@ GameObject:
   - component: {fileID: 1844906185}
   - component: {fileID: 1844906184}
   - component: {fileID: 1844906183}
+  - component: {fileID: 1844906186}
   m_Layer: 5
   m_Name: meats
   m_TagString: Untagged
@@ -2624,7 +2809,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1844906184}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1844906186}
+        m_MethodName: cargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: meats
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1844906184
@@ -2660,6 +2856,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1844906181}
+--- !u!114 &1844906186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1844906181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc07369ac2943f40af06ea54090bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1854295514
 GameObject:
   m_ObjectHideFlags: 0

@@ -152,8 +152,8 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.PaisaTech.Blackdish
   buildNumber: {}
-  AndroidBundleVersionCode: 2
-  AndroidMinSdkVersion: 19
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 24
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -237,7 +237,7 @@ PlayerSettings:
   clonedFromGUID: 56e7a2d3a00f33d44bdd161b773c35b5
   templatePackageId: com.unity.template.3d@1.0.0
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  AndroidTargetArchitectures: 7
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: D:/Documentos/user.keystore
