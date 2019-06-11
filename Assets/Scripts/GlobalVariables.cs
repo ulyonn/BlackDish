@@ -9,4 +9,5 @@ public class GlobalVariables : Object {
 
     //Variable para imagen de facebook
     public static Image profilePic;
+    public static Text username;
 }
