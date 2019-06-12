@@ -601,7 +601,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Log in restaurant
+  m_Text: Log in as a restaurant
 --- !u!222 &667552797
 CanvasRenderer:
   m_ObjectHideFlags: 0

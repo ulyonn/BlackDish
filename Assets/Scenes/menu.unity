@@ -1816,6 +1816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imagendeusuario: {fileID: 2004437483}
+  nombredeusuario: {fileID: 0}
 --- !u!114 &2004437482
 MonoBehaviour:
   m_ObjectHideFlags: 0

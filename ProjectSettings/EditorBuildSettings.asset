@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/categories/seaFood.unity
     guid: 5bac71181a602334f92b6731135da474
+  - enabled: 1
+    path: Assets/Scenes/pedidos.unity
+    guid: aecddffa4139eaa42b72a7f6475a02b0
   m_configObjects: {}

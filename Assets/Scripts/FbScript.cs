@@ -123,6 +123,7 @@ public class FbScript : MonoBehaviour
     void DisplayUsername(IResult result)
     {
         Text UserName = DialogUsername.GetComponent<Text>();
+        GlobalVariables.username = UserName;
 
         if (result.Error == null)
         {
