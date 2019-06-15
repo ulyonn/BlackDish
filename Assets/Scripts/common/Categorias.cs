@@ -7,7 +7,7 @@ public class Categorias : MonoBehaviour {
     int idCategoria;
     string nombreCategoria;
 
-    public int idCategoria{
+    public int IdCategoria{
         get{
             return this.idCategoria;
         }
@@ -16,7 +16,7 @@ public class Categorias : MonoBehaviour {
         }
     }
 
-    public string nombreCategoria
+    public string NombreCategoria
     {
         get{
             return this.nombreCategoria;

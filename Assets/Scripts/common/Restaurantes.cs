@@ -5,13 +5,13 @@ using System;
 
 public class Restaurantes : MonoBehaviour {
     int idRestaurante;
-    string nombreRestaurante;
-    string direccionRestaurante;
-    string telefonoRestaurante;
+    string nombre;
+    string direccion;
+    string telefono;
     int idMenu;
     int idPromocion;
 
-    public int idRestaurante{
+    public int IdRestaurante{
       get{
         return this.idRestaurante;
       }
@@ -20,34 +20,34 @@ public class Restaurantes : MonoBehaviour {
       }
     }
 
-    public string nombreRestaurante{
+    public string Nombre{
       get{
-        return this.nombreRestaurante;
+        return this.nombre;
       }
       set{
-        this.nombreRestaurante = value;
+        this.nombre = value;
       }
     }
 
-    public string direccionRestaurante{
+    public string Direccion{
       get{
-        return this.direccionRestaurante;
+        return this.direccion;
       }
       set{
-        this.direccionRestaurante = value;
+        this.direccion = value;
       }
     }
 
-    public string telefonoRestaurante{
+    public string Telefono{
       get{
-        return this.telefonoRestaurante;
+        return this.telefono;
       }
       set{
-        this.telefonoRestaurante = value;
+        this.telefono = value;
       }
     }
 
-    public int idMenu{
+    public int IdMenu{
       get{
         return this.idMenu;
       }
@@ -56,7 +56,7 @@ public class Restaurantes : MonoBehaviour {
       }
     }
 
-    public int idPromocion{
+    public int IdPromocion{
       get{
         return this.idPromocion;
       }

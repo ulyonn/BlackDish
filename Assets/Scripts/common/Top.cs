@@ -10,7 +10,7 @@ public class Top : MonoBehaviour {
 	float costoPlatillo;
 	float puntuacionPlatillo;
 
-	public int idPlatillo{
+	public int IdPlatillo{
 		get{
 			return this.idPlatillo;
 		}
@@ -19,7 +19,7 @@ public class Top : MonoBehaviour {
 		}
 	}
 
-	public string nombrePlatillo{
+	public string NombrePlatillo{
 		get{
 			return this.nombrePlatillo;
 		}
@@ -28,7 +28,7 @@ public class Top : MonoBehaviour {
 		}
 	}
 
-	public string descripcionPlatillo{
+	public string DescripcionPlatillo{
 		get{
 			return this.descripcionPlatillo;
 		}
@@ -37,7 +37,7 @@ public class Top : MonoBehaviour {
 		}
 	}
 
-	public float costoPlatillo{
+	public float CostoPlatillo{
 		get{
 			return this.costoPlatillo;
 		}
@@ -46,7 +46,7 @@ public class Top : MonoBehaviour {
 		}
 	}
 
-	public float puntuacionPlatillo{
+	public float PuntuacionPlatillo{
 		get{
 			return this.puntuacionPlatillo;
 		}

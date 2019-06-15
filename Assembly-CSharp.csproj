@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\model\PromocionesModel.cs" />
     <Compile Include="Assets\Scripts\model\RestaurantModel.cs" />
     <Compile Include="Assets\Scripts\model\TopModel.cs" />
+    <Compile Include="Assets\Scripts\model\Webservice.cs" />
     <Compile Include="Assets\Scripts\NewObject.cs" />
     <Compile Include="Assets\Scripts\ProfilePic.cs" />
     <Compile Include="Assets\Scripts\Registration.cs" />

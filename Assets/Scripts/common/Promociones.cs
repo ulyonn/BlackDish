@@ -9,7 +9,7 @@ public class Promociones : MonoBehaviour {
     string descripcionPromocion;
     float costoPromocion;
 
-    public int idPromocion{
+    public int IdPromocion{
         get{
             return this.idPromocion;
         }
@@ -18,7 +18,7 @@ public class Promociones : MonoBehaviour {
         }
     }
 
-    public string nombrePromocion{
+    public string NombrePromocion{
         get{
             return this.nombrePromocion;
         }
@@ -27,7 +27,7 @@ public class Promociones : MonoBehaviour {
         }
     }
 
-    public string descripcionPromocion{
+    public string DescripcionPromocion{
         get{
             return this.descripcionPromocion;
         }
@@ -36,12 +36,12 @@ public class Promociones : MonoBehaviour {
         }
     }
 
-    public float costoPromocion{
+    public float CostoPromocion{
         get{
             return this.costoPromocion;
         }
         set{
-            this.descripcionPromocion = value;
+            this.costoPromocion = value;
         }
     }
 	
